@@ -1,0 +1,30 @@
+
+
+First things first:
+
+    Delete the Github remote repository where you uploaded your user folder (you don't want this to be public)
+
+    Delete the local repository in your user folder.
+
+    # Be careful, dangerous command, it will erase your repository 
+    # Make sure that you run this from the right folder 
+    rm -rf .git
+
+Now, if your local repositories bellow Documents start working again you are done. Else, delete and clone each one of them, one by one (of course that this will discard both uncommitted changes and commits that you have not previously pushed).
+
+ cd ~/Documents/gitHub/
+ # example, and again, be careful, it will erase your entire folder
+ rm -rf repositoryA
+ git clone git://github.com/myUser/repositoryA.git
+ rm -rf repositoryB
+ git clone git://github.com/myUser/repositoryB.git 
+ # And so on 
+
+shareimprove this answer
+edited May 23 '17 at 12:41
+Community♦
+1
+answered May 23 '13 at 22:09
+Anthony Accioly
+21625
+
